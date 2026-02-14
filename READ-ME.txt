@@ -1,6 +1,6 @@
-  =>  Template Name    : CryptoCoin - Free Cryptocurrency Website Template
+  =>  Template Name    : Investa - Investment Website Template
 
-  =>  Template Link    : https://htmlcodex.com/free-cryptocurrency-website-template
+  =>  Template Link    : https://htmlcodex.com/investment-website-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
