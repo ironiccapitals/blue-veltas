@@ -1,6 +1,6 @@
-  =>  Template Name    : Makaan - Real Estate HTML Template
+  =>  Template Name    : Stocker - Stock Market Website Template
 
-  =>  Template Link    : https://htmlcodex.com/real-estate-html-template-free
+  =>  Template Link    : https://htmlcodex.com/stock-market-website-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
