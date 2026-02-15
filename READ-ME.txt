@@ -1,6 +1,6 @@
-  =>  Template Name    : Stocker - Stock Market Website Template
+  =>  Template Name    : Travisa - Visa & Immigration Website Template
 
-  =>  Template Link    : https://htmlcodex.com/stock-market-website-template
+  =>  Template Link    : https://htmlcodex.com/visa-immigration-website-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
