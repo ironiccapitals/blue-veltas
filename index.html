@@ -5,259 +5,176 @@
     <meta charset="utf-8" />
     <title>Blue Veltas - Investment Website</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Consulting Website Template Free Download" name="keywords" />
-    <meta content="Consulting Website Template Free Download" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap"
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet" />
 
-    <!-- CSS Libraries -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/blue-veltas/Investa/Investa/css/bootstrap.min.css" rel="stylesheet" />
+
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="/blue-veltas/Investa/Investa/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <!-- Top Bar Start -->
-    <div class="top-bar d-none d-md-block">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="top-bar-left">
-                        <div class="text">
-                            <i class="far fa-clock"></i>
-                            <h2>8:00 - 9:00</h2>
-                            <p>Mon - Fri</p>
-                        </div>
-                        <div class="text">
-                            <i class="fa fa-phone-alt"></i>
-                            <h2>+123 456 7890</h2>
-                            <p>For Appointment</p>
-                        </div>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar px-0 d-none d-lg-block">
+        <div class="container px-0">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find
+                            A Location</a>
+                        <!-- <a href="#" class="text-muted me-4"><i
+                                class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a> -->
+                        <a href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#"
+                            class="text-muted me-0"><i
+                                class="fas fa-envelope text-primary me-2"></i>bluevetas@gmail.com</a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="top-bar-right">
-                        <div class="social">
-                            <a
-                                href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                    class="fab fa-twitter"></i></a>
-                            <a
-                                href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a
-                                href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                            <a
-                                href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                    class="fab fa-instagram"></i></a>
-                        </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#"
+                            class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i
+                                class="fab fa-facebook-f text-white"></i></a>
+                        <a href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#"
+                            class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i
+                                class="fab fa-twitter text-white"></i></a>
+                        <a href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#"
+                            class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i
+                                class="fab fa-instagram text-white"></i></a>
+                        <a href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#"
+                            class="btn btn-primary btn-square rounded-circle nav-fill me-0"><i
+                                class="fab fa-linkedin-in text-white"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Top Bar End -->
+    <!-- Topbar End -->
 
-    <!-- Nav Bar Start -->
-    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container-fluid">
-            <a href="/blue-veltas/consulting-website-template/consulting-website-template/index.html#"
-                class="navbar-brand p-0">
-                <h1 class="text-primary m-0"><i class="fas fa-donate me-3"></i>Blue Veltas</h1>
-                <!-- <img src="img/logo.png" alt="Logo"> -->
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto">
-                    <a href="/blue-veltas/index.html#" class="nav-item nav-link active">Home</a>
-                    <a href="/blue-veltas/consulting-website-template/consulting-website-template/about.html#"
-                        class="nav-item nav-link">About</a>
-                    <a href="/blue-veltas/consulting-website-template/consulting-website-template/service.html#"
-                        class="nav-item nav-link">Service</a>
-                    <a href="/blue-veltas/consulting-website-template/consulting-website-template/feature.html#"
-                        class="nav-item nav-link">Feature</a>
-                    <a href="/blue-veltas/consulting-website-template/consulting-website-template/advisor.html#"
-                        class="nav-item nav-link">Advisor</a>
-                    <a href="/blue-veltas/consulting-website-template/consulting-website-template/review.html#"
-                        class="nav-item nav-link">Review</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu">
-                            <a href="consulting-blog.html#" class="dropdown-item">Blog Page</a>
-                            <a href="consulting-single.html#" class="dropdown-item">Single Page</a>
-                        </div>
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid sticky-top px-0">
+        <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
+        </div>
+        <div class="container px-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+                <a href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/index.html#"
+                    class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fas fa-donate me-3"></i>Blue Veltas</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="/blue-veltas/index.html#" class="nav-item nav-link active">Home</a>
+                        <a href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/about.html#"
+                            class="nav-item nav-link">About</a>
+                        <a href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/service.html#"
+                            class="nav-item nav-link">Services</a>
+                        <a href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/project.html#"
+                            class="nav-item nav-link">Projects</a>
+                        <a href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#"
+                            class="nav-item nav-link">Contact</a>
+                        <a href="/blue-veltas/crypto-wallet/dashboard.html#" class="nav-item nav-link"
+                            style="font-size: large;">Dashboard</a>
+                        <a href="/blue-veltas/login-registration/sign-in.html#" class="nav-item nav-link"
+                            style="font-size: large;">Sign In</a>
+                        <a href="/blue-veltas/login-registration/sign-up.html#" class="nav-item nav-link"
+                            style="font-size: large;">Sign Up</a>
                     </div>
-                    <a href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"
-                        class="nav-item nav-link">Contact</a>
+                    <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                        <a href="/blue-veltas/login-registration/sign-in.html#"
+                            class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0"
+                            style="font-size: large;">Invest Now</a>
+                    </div>
+                </div>
+        </div>
+        </nav>
+    </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid hero-header bg-light py-5 mb-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3 animated slideInDown">Make Better Life With Trusted CryptoCoin</h1>
+                    <p class="animated slideInDown">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
+                        magna dolore erat amet</p>
+                    <a href="" class="btn btn-primary py-3 px-4 animated slideInDown">Explore More</a>
+                </div>
+                <div class="col-lg-6 animated fadeIn">
+                    <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-1.png"
+                        alt="" />
                 </div>
             </div>
         </div>
     </div>
-    <!-- Nav Bar End -->
-
-
-    <!-- Carousel Start -->
-    <div class="carousel">
-        <div class="container-fluid">
-            <div class="owl-carousel">
-                <div class="carousel-item">
-                    <div class="carousel-img">
-                        <img src="img/carousel-1.jpg" alt="Image" />
-                    </div>
-                    <div class="carousel-text">
-                        <h1>Fastest Way to Achieve Success</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac
-                            consequat at lectus in malesuada
-                        </p>
-                        <div class="carousel-btn">
-                            <a class="btn" href=""><i class="fa fa-link"></i>Get Started</a>
-                            <a class="btn btn-play" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal"><i
-                                    class="fa fa-play"></i>Watch Video</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carousel-img">
-                        <img src="img/carousel-2.jpg" alt="Image" />
-                    </div>
-                    <div class="carousel-text">
-                        <h1>Your Success Our Achievement</h1>
-                        <p>
-                            Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci
-                            sodales varius fermentum, tortor
-                        </p>
-                        <div class="carousel-btn">
-                            <a class="btn" href=""><i class="fa fa-link"></i>Get Started</a>
-                            <a class="btn btn-play" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal"><i
-                                    class="fa fa-play"></i>Watch Video</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carousel-img">
-                        <img src="img/carousel-3.jpg" alt="Image" />
-                    </div>
-                    <div class="carousel-text">
-                        <h1>Your Business Our Effort</h1>
-                        <p>
-                            Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula
-                            euismod quam. Proin pellentesque odio
-                        </p>
-                        <div class="carousel-btn">
-                            <a class="btn" href=""><i class="fa fa-link"></i>Get Started</a>
-                            <a class="btn btn-play" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal"><i
-                                    class="fa fa-play"></i>Watch Video</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Carousel End -->
-
-    <!-- Video Modal Start-->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
-
-
-    <!-- Fact Start -->
-    <div class="fact">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-item">
-                        <img src="img/icon-4.png" alt="Icon" />
-                        <h2>Qualified Team</h2>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-item">
-                        <img src="img/icon-1.png" alt="Icon" />
-                        <h2>Individual Approach</h2>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-item">
-                        <img src="img/icon-8.png" alt="Icon" />
-                        <h2>100% Success</h2>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-item">
-                        <img src="img/icon-6.png" alt="Icon" />
-                        <h2>100% Satisfaction</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fact Start -->
+    <!-- Header End -->
 
 
     <!-- About Start -->
-    <div class="about">
+    <div class="container-xxl py-5">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="about-img">
-                        <div class="about-img-1">
-                            <img src="img/about-2.jpg" alt="Image" />
-                        </div>
-                        <div class="about-img-2">
-                            <img src="img/about-1.jpg" alt="Image" />
-                        </div>
-                    </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/about.png" alt="" />
                 </div>
-                <div class="col-md-6">
-                    <div class="section-header">
-                        <p>Learn About Us</p>
-                        <h2>25 Years Experience</h2>
-                    </div>
-                    <div class="about-text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
-                            facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
-                            viverra quis sem.
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h1 class="display-6">About Us</h1>
+                        <p class="text-primary fs-5 mb-4">The Most Trusted Cryptocurrency Platform</p>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                            Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
                         </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
-                            facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
-                            viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur
-                            convallis porttitor. Aliquam interdum at lacus non blandit.
-                        </p>
-                        <a class="btn" href="">Learn More</a>
+                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>Tempor erat elitr rebum at clita</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>Tempor erat elitr rebum at clita</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <i class="fa fa-check bg-light text-primary btn-sm-square rounded-circle me-3 fw-bold"></i>
+                            <span>Tempor erat elitr rebum at clita</span>
+                        </div>
+                        <a class="btn btn-primary py-3 px-4" href="crypto-about.html#">Read More</a>
                     </div>
                 </div>
             </div>
@@ -266,92 +183,165 @@
     <!-- About End -->
 
 
-    <!-- Service Start -->
-    <div class="service">
-        <div class="container">
-            <div class="section-header">
-                <p>Consulting Services</p>
-                <h2>Our Best Consulting Services</h2>
+    <!-- Facts Start -->
+    <div class="container-xxl bg-light py-5 my-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid mb-4" src="img/icon-9.png" alt="" />
+                    <h1 class="display-4" data-toggle="counter-up">123456</h1>
+                    <p class="fs-5 text-primary mb-0">Today Transactions</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid mb-4" src="img/icon-10.png" alt="" />
+                    <h1 class="display-4" data-toggle="counter-up">123456</h1>
+                    <p class="fs-5 text-primary mb-0">Monthly Transactions</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
+                    <h1 class="display-4" data-toggle="counter-up">123456</h1>
+                    <p class="fs-5 text-primary mb-0">Total Transactions</p>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-1.png" alt="Icon" />
-                        <h3>Business Strategy</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- Features Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Why Us!</h1>
+                <p class="text-primary fs-5 mb-5">The Best In The crypto Industry</p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-7.png" alt="" />
+                        <div class="ps-4">
+                            <h5 class="mb-3">Easy To Start</h5>
+                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                clita duo justo</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-2.png" alt="Icon" />
-                        <h3>Project Management</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-6.png" alt="" />
+                        <div class="ps-4">
+                            <h5 class="mb-3">Safe & Secure</h5>
+                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                clita duo justo</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-3.png" alt="Icon" />
-                        <h3>Market Research</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-5.png" alt="" />
+                        <div class="ps-4">
+                            <h5 class="mb-3">Affordable Plans</h5>
+                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                clita duo justo</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-4.png" alt="Icon" />
-                        <h3>Human Resource</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-4.png" alt="" />
+                        <div class="ps-4">
+                            <h5 class="mb-3">Secure Storage</h5>
+                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                clita duo justo</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-5.png" alt="Icon">
-                        <h3>Online Business</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-3.png" alt="" />
+                        <div class="ps-4">
+                            <h5 class="mb-3">Protected By Insurance</h5>
+                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                clita duo justo</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-6.png" alt="Icon" />
-                        <h3>Capital Management</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-start">
+                        <img class="img-fluid flex-shrink-0" src="img/icon-8.png" alt="" />
+                        <div class="ps-4">
+                            <h5 class="mb-3">24/7 Support</h5>
+                            <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                clita duo justo</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-7.png" alt="Icon" />
-                        <h3>Business Insurance</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl bg-light py-5 my-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Services</h1>
+                <p class="text-primary fs-5 mb-5">Buy, Sell And Exchange Cryptocurrency</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-7.png" alt="" />
+                        <h5 class="mb-3">Currency Wallet</h5>
+                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                            justo</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-item">
-                        <img src="img/icon-8.png" alt="Icon" />
-                        <h3>Online Marketing</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non
-                        </p>
-                        <a href="">Read More</a>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="" />
+                        <h5 class="mb-3">Currency Transaction</h5>
+                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                            justo</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-9.png" alt="" />
+                        <h5 class="mb-3">Bitcoin Investment</h5>
+                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                            justo</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-5.png" alt="" />
+                        <h5 class="mb-3">Currency Exchange</h5>
+                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                            justo</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                        <h5 class="mb-3">Bitcoin Escrow</h5>
+                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                            justo</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-white p-5">
+                        <img class="img-fluid mb-4" src="img/icon-8.png" alt="" />
+                        <h5 class="mb-3">Token Sale</h5>
+                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
+                            justo</p>
+                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -360,462 +350,335 @@
     <!-- Service End -->
 
 
-    <!-- Feature Start -->
-    <div class="feature">
+    <!-- Roadmap Start -->
+    <div class="container-xxl py-5">
         <div class="container">
-            <div class="row align-items-end">
-                <div class="col-md-6">
-                    <div class="feature-img">
-                        <img src="img/business-man.png" alt="Image" />
-                    </div>
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Roadmap</h1>
+                <p class="text-primary fs-5 mb-5">We Translate Your Dream Into Reality</p>
+            </div>
+            <div class="owl-carousel roadmap-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>January 2045</h5>
+                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
                 </div>
-                <div class="col-md-6">
-                    <div class="section-header">
-                        <p>Our Feature</p>
-                        <h2>Why Choose Us?</h2>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
-                        facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
-                        viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus
-                    </p>
-                    <div class="row counters">
-                        <div class="col-6">
-                            <i class="fa fa-user"></i>
-                            <div class="counters-text">
-                                <h2 data-toggle="counter-up">100</h2>
-                                <p>Our Staffs</p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <i class="fa fa-users"></i>
-                            <div class="counters-text">
-                                <h2 data-toggle="counter-up">200</h2>
-                                <p>Our Clients</p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <i class="fa fa-check"></i>
-                            <div class="counters-text">
-                                <h2 data-toggle="counter-up">300</h2>
-                                <p>Completed Projects</p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <i class="fa fa-running"></i>
-                            <div class="counters-text">
-                                <h2 data-toggle="counter-up">400</h2>
-                                <p>Running Projects</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>March 2045</h5>
+                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>May 2045</h5>
+                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>July 2045</h5>
+                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>September 2045</h5>
+                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-point"><span></span></div>
+                    <h5>November 2045</h5>
+                    <span>Diam dolor ipsum sit amet erat ipsum lorem sit</span>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Feature End -->
+    <!-- Roadmap End -->
 
 
-    <!-- Testimonial Start -->
-    <div class="testimonial">
-        <div class="container">
-            <div class="section-header">
-                <p>Testimonial Carousel</p>
-                <h2>100% Positive Customer Reviews</h2>
+    <!-- Token Sale Start -->
+    <div class="container-xxl bg-light py-5 my-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">Token Sale</h1>
+                <p class="text-primary fs-5 mb-5">Token Sale Countdown</p>
             </div>
-            <div class="owl-carousel testimonials-carousel">
-                <div class="testimonial-item">
-                    <img src="img/testimonial-1.jpg" alt="Image" />
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis mauris. Vivamus
-                        egestas eleifend dui ac consequat
-                    </p>
-                    <h2>Client Name</h2>
-                    <h3>Profession</h3>
+            <div class="row g-3">
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Days</span>
+                    </div>
                 </div>
-                <div class="testimonial-item">
-                    <img src="img/testimonial-2.jpg" alt="Image" />
-                    <p>
-                        Phasellus pellentesque tempus pretium. Quisque in enim sit amet purus venenatis porttitor sed
-                        non velit. Vivamus vehicula finibus
-                    </p>
-                    <h2>Client Name</h2>
-                    <h3>Profession</h3>
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Hours</span>
+                    </div>
                 </div>
-                <div class="testimonial-item">
-                    <img src="img/testimonial-3.jpg" alt="Image" />
-                    <p>
-                        Sed in lectus eu eros tincidunt cursus. Aliquam eleifend velit nisl. Sed et posuere urna, ut
-                        vestibulum massa. Integer quis magna
-                    </p>
-                    <h2>Client Name</h2>
-                    <h3>Profession</h3>
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Minutes</span>
+                    </div>
                 </div>
-                <div class="testimonial-item">
-                    <img src="img/testimonial-4.jpg" alt="Image" />
-                    <p>
-                        Sed in lectus eu eros tincidunt cursus. Aliquam eleifend velit nisl. Sed et posuere urna, ut
-                        vestibulum massa. Integer quis magna
-                    </p>
-                    <h2>Client Name</h2>
-                    <h3>Profession</h3>
+                <div class="col-6 col-md-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="bg-white text-center p-3">
+                        <h1 class="mb-0">0</h1>
+                        <span class="text-primary fs-5">Seconds</span>
+                    </div>
+                </div>
+                <div class="col-12 text-center py-4">
+                    <a class="btn btn-primary py-3 px-4" href="">Buy Token</a>
+                </div>
+                <div class="col-12 text-center">
+                    <img class="img-fluid m-1" src="img/payment-1.png" alt="" style="width: 50px;" />
+                    <img class="img-fluid m-1" src="img/payment-2.png" alt="" style="width: 50px;" />
+                    <img class="img-fluid m-1" src="img/payment-3.png" alt="" style="width: 50px;" />
+                    <img class="img-fluid m-1" src="img/payment-4.png" alt="" style="width: 50px;" />
                 </div>
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
+    <!-- Token Sale Start -->
 
 
-    <!-- Team Start -->
-    <div class="team">
+    <!-- FAQs Start -->
+    <div class="container-xxl py-5">
         <div class="container">
-            <div class="section-header">
-                <p>Meet Our Advisors</p>
-                <h2>Our Professional Consulting Team</h2>
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6">FAQs</h1>
+                <p class="text-primary fs-5 mb-5">Frequently Asked Questions</p>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-1.jpg" alt="Team Image" />
-                        </div>
-                        <div class="team-text">
-                            <h2>Donald John</h2>
-                            <p>Founder & CEO</p>
-                            <div class="team-social">
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-twitter"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-2.jpg" alt="Team Image" />
-                        </div>
-                        <div class="team-text">
-                            <h2>Adam Phillips</h2>
-                            <p>Chef Executive</p>
-                            <div class="team-social">
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-twitter"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-3.jpg" alt="Team Image" />
-                        </div>
-                        <div class="team-text">
-                            <h2>Thomas Olsen</h2>
-                            <p>Chef Advisor</p>
-                            <div class="team-social">
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-twitter"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="img/team-4.jpg" alt="Team Image" />
-                        </div>
-                        <div class="team-text">
-                            <h2>James Alien</h2>
-                            <p>Advisor</p>
-                            <div class="team-social">
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-twitter"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <a
-                                    href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                        class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-
-    <!-- Contact Start -->
-    <div class="contact">
-        <div class="container">
-            <div class="section-header">
-                <p>Get In Touch</p>
-                <h2>Get In Touch For Any Query</h2>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-5">
-                    <div class="contact-info">
-                        <div class="contact-icon">
-                            <i class="fa fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Our Head Office</h3>
-                            <p>123 Street, New York, USA</p>
-                        </div>
-                    </div>
-                    <!-- <div class="contact-info">
-                            <div class="contact-icon">
-                                <i class="fa fa-phone-alt"></i>
-                            </div>
-                            <div class="contact-text">
-                                <h3>Call for Help</h3>
-                                <p>+012 345 6789</p>
-                            </div>
-                        </div> -->
-                    <div class="contact-info">
-                        <div class="contact-icon">
-                            <i class="fa fa-envelope"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Email for Information</h3>
-                            <p>info@blueveltas.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <div class="contact-form">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                    required="required" data-validation-required-message="Please enter your name" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                    required="required" data-validation-required-message="Please enter your email" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control" id="message" placeholder="Message" required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact End -->
-
-
-    <!-- Blog Start -->
-    <div class="blog">
-        <div class="container">
-            <div class="section-header">
-                <p>Consulting Blog</p>
-                <h2>Latest From Our Consulting Blog</h2>
-            </div>
-            <div class="owl-carousel blog-carousel">
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img/blog-1.jpg" alt="Blog" />
-                    </div>
-                    <div class="blog-content">
-                        <h2 class="blog-title">Lorem ipsum dolor sit amet</h2>
-                        <div class="blog-meta">
-                            <i class="fa fa-list-alt"></i>
-                            <a href="">Category</a>
-                            <i class="fa fa-calendar-alt"></i>
-                            <p>01-Jan-2045</p>
-                        </div>
-                        <div class="blog-text">
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte
-                                liqum metus tortor. Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili
-                                ornare velit non vulpte liqum metus tortor
-                            </p>
-                            <a class="btn" href="">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img/blog-2.jpg" alt="Blog" />
-                    </div>
-                    <div class="blog-content">
-                        <h2 class="blog-title">Lorem ipsum dolor sit amet</h2>
-                        <div class="blog-meta">
-                            <i class="fa fa-list-alt"></i>
-                            <a href="">Category</a>
-                            <i class="fa fa-calendar-alt"></i>
-                            <p>01-Jan-2045</p>
-                        </div>
-                        <div class="blog-text">
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte
-                                liqum metus tortor. Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili
-                                ornare velit non vulpte liqum metus tortor
-                            </p>
-                            <a class="btn" href="">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="img/blog-3.jpg" alt="Blog" />
-                    </div>
-                    <div class="blog-content">
-                        <h2 class="blog-title">Lorem ipsum dolor sit amet</h2>
-                        <div class="blog-meta">
-                            <i class="fa fa-list-alt"></i>
-                            <a href="">Category</a>
-                            <i class="fa fa-calendar-alt"></i>
-                            <p>01-Jan-2045</p>
-                        </div>
-                        <div class="blog-text">
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte
-                                liqum metus tortor. Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili
-                                ornare velit non vulpte liqum metus tortor
-                            </p>
-                            <a class="btn" href="">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
-
-
-    <!-- Footer Start -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="footer-contact">
-                                <h2>Our Head Office</h2>
-                                <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                                <!-- <p><i class="fa fa-phone-alt"></i>+012 345 67890</p> -->
-                                <p><i class="fa fa-envelope"></i>info@blueveltas.com</p>
-                                <div class="footer-social">
-                                    <a
-                                        href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a
-                                        href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a
-                                        href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                    <a
-                                        href="/blue-veltas/consulting-website-template/consulting-website-template/contact.html#"><i
-                                            class="fab fa-instagram"></i></a>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.1s">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How to build a website?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
+                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="footer-link">
-                                <h2>Quick Links</h2>
-                                <a href="">Terms of use</a>
-                                <a href="">Privacy policy</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How long will it take to get a new website?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
+                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="footer-newsletter">
-                        <h2>Newsletter</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu
-                            placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
-                        </p>
-                        <div class="form">
-                            <input class="form-control" placeholder="Email goes here">
-                            <button class="btn">Submit</button>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Do you only create HTML websites?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
+                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    Will my website be mobile-friendly?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
+                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Will you maintain my site for me?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
+                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    I’m on a strict budget. Do you have any low cost options?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
+                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Will you maintain my site for me?
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
+                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    I’m on a strict budget. Do you have any low cost options?
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna
+                                    diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container copyright">
-            <div class="row">
+    </div>
+    <!-- FAQs Start -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
                 <div class="col-md-6">
-                    <p>&copy; <a
-                            href="/blue-veltas/consulting-website-template/consulting-website-template/index.html#">Blue
-                            Veltas</a>, All Right Reserved.</p>
+                    <h1 class="text-primary mb-4"><img class="img-fluid me-2" src="img/icon-1.png" alt=""
+                            style="width: 45px;" />CryptoCoin</h1>
+                    <span>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed
+                        stet lorem sit clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum
+                        et lorem et sit.</span>
                 </div>
-                <!-- <div class="col-md-6">
-                    <p>Designed By <a href="contact.html#">Blue Veltas</a></p>
-                </div> -->
+                <div class="col-md-6">
+                    <h5 class="mb-4">Newsletter</h5>
+                    <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita.</p>
+                    <div class="position-relative">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Get In Touch</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <!-- <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p> -->
+                    <p><i class="fa fa-envelope me-3"></i>info@blueveltas.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Our Services</h5>
+                    <a class="btn btn-link" href="/blue-veltas/crypto-wallet/wallet.html#">Currency Wallet</a>
+                    <a class="btn btn-link" href="/blue-veltas/crypto-wallet/transaction.html#">Currency Transaction</a>
+                    <a class="btn btn-link" href="/blue-veltas/crypto-wallet/dashboard.html#">Bitcoin Investment</a>
+                    <a class="btn btn-link"
+                        href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/token.html#">Token
+                        Sale</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <a class="btn btn-link"
+                        href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/about.html#">About
+                        Us</a>
+                    <a class="btn btn-link"
+                        href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#">Contact
+                        Us</a>
+                    <a class="btn btn-link"
+                        href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/service.html#">Our
+                        Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Follow Us</h5>
+                    <div class="d-flex">
+                        <a class="btn btn-square rounded-circle me-1"
+                            href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square rounded-circle me-1"
+                            href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square rounded-circle me-1"
+                            href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#"><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square rounded-circle me-1"
+                            href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/contact.html#"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a
+                            href="/blue-veltas/free-cryptocurrency-website-template/free-cryptocurrency-website-template/index.html#">Blue
+                            Veltas</a>, All Right Reserved.
+                    </div>
+                    <!-- <div class="col-md-6 text-center text-md-end"> -->
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <!-- Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                    </div> -->
+                </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
 
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
